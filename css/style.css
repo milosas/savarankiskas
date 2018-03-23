@@ -1,0 +1,165 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #878A8F;
+  font-size: 14px;
+}
+h3 {
+font-weight: 700;
+color: black;
+}
+.wa-page-title h2,
+.wa3-image-text h3{
+  margin-bottom: 40px;
+}
+.wa-page-title h2 {
+  font-weight: 700;
+  font-size: 33px;
+  color: black;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+.wa-page-title p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 16px;
+}
+.wa-page-title {
+  margin-bottom: 82px;
+}
+.wa-page-title p:last-child,
+.wa3-image-text p:last-child {
+  margin-bottom: 0;
+}
+.wa3-image-text {
+  line-height: 28px;
+}
+ .locate-us {
+   height: 680px;
+  background-image: url(http://hksculptures.com/wp-content/uploads/2013/04/6786BC-ATTORNEY-600x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-right: 0;
+}
+
+.locate-us h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.locate-us-red {
+  color: white;
+  font-size: 16px;
+  padding-right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(238,120,111,0.8);
+  color: white;
+  display: table;
+}
+.locate-us-red div {
+  padding-left: 130px;
+  padding-right: 100px;
+  max-width: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* FORM STYLE */
+.bggrey {
+  background-color: #EFF3F6;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.input-group {
+  padding-top: 30px;
+}
+.btn-orange {
+  height: 50px;
+  background-color: #EE544A;
+  color: white;
+  padding: 0.5rem 40px;
+  border-radius: 0;
+  border-color: none;
+}
+footer {
+  background: #374252;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.bgdark nav ul li {
+  list-style: none;
+  font-weight: 600px;
+
+}
+.boldp {
+  font-weight: 800;
+}
+.pitalic {
+  font-style: italic;
+}
+footer .row p a {
+  text-decoration: none;
+  color: grey;
+}
+footer .row nav ul li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+  font-size: 15px;
+}
+.bgdark i {
+  font-size: 30px;
+  margin:0 10px;
+  color: #777879;
+}
+
+
+
+  .wa3-image-text .order-lg-1.image {
+    padding-right: 0px;
+  }
+  .wa3-image-text .order-lg-2.text {
+    padding-left: 30px;
+  }
+  .wa3-image-text .order-lg-1.text {
+    padding-right: 30px;
+  }
+  .wa3-image-text .order-lg-2.image {
+    padding-left: 0px;
+  }
+  .wa3-image-text + .wa3-image-text {
+    margin-top: -1px;
+  }
+
+
+@media (max-width: 989px) {
+  body p,h1, h2, h3, h4 {
+    text-align: center;
+  }
+footer,
+.bggrey {
+  margin: 0 -15px;
+}
+
+  h3 {
+    margin-top: 40px;
+  }
+  .wa-page-title p:last-child, .wa3-image-text p:last-child {
+    margin-bottom: 40px;
+  }
+  footer {
+    text-align: center;
+    padding-bottom: 20px;
+  }
